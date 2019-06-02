@@ -6,9 +6,9 @@ C_D0 = 0.01225
 n = 1.108
 
 
-class climbingconst(ExplicitComponent):
+class wingloading(ExplicitComponent):
       
-    def setup(self):
+    def setup(self):\
         self.add_input('q')
         self.add_input('AR')
         self.add_input('v')
