@@ -29,8 +29,4 @@ class climbingconst(ExplicitComponent):
 
                     
     #def compute_partials(self, inputs, partials):
-      #  q = inputs['q']
-       # AR = inputs['AR']
-        #C_D0 = inputs['C_D0']
-        #G = inputs['G']
 
